@@ -6,7 +6,7 @@
     --bg-black-50:#e8dfec;
     --text-black-900:#302e4d;
     --text-black-700:#504e70;
-} 
+}
 body.dark
 {
     --bg-black-900:#151515;
@@ -679,9 +679,6 @@ h3.my-profrssiion
     display: block;
 }
 /* contact */
-
-
-
 .contact-title
 {
     color: var(--skin-color);
@@ -846,32 +843,3 @@ h3.my-profrssiion
         max-width: 100%;
     }
 }
-
-/* change icon start */
-.container-sel ul {
-
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-
-}
-
-.container-sel li {
-
-    margin-right: 30px;
-}
-
-container-sel li a {
-
-    font-size: 50px;
-    color: var(--skin-color);
-    transition: color 0.3s ease;
-}
-
-.container-sel li a i {
-    color: var(--skin-color);
-    font-size: 30px;
-
-}
-
-/* change icon end */

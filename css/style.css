@@ -848,7 +848,8 @@ h3.my-profrssiion
 }
 
 /* change icon start */
-.container-sel ul {
+
+.container-sel i {
 
     list-style-type: none;
     padding: 0;
@@ -856,22 +857,23 @@ h3.my-profrssiion
 
 }
 
-.container-sel li {
+.container-sel-1 i a {
 
     margin-right: 30px;
 }
 
-container-sel li a {
+container-sel-1 i a {
 
     font-size: 50px;
     color: var(--skin-color);
     transition: color 0.3s ease;
 }
 
-.container-sel li a i {
+.container-sel-1 i a i {
     color: var(--skin-color);
     font-size: 30px;
 
 }
+
 
 /* change icon end */

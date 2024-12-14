@@ -44,3 +44,21 @@ styleSwitcherToggle.addEventListener("click", () =>
         dayNight.querySelector("i").classList.add("fa-moon");
     }
   })
+
+    /* ======================================== theme Light and dark mode ================================================== */
+//   const aren = document.querySelector(".ar-en");
+//   ar-en.addEventListener("click", () =>{
+//     ar-en.querySelector("i").classList.toggle("fa-e");
+//     ar-en.querySelector("i").classList.toggle("fa-a");
+//     document.body.classList.toggle("switch");
+//   })
+//   window.addEventListener("load", () => {
+//     if(document.body.classList.contains("switch"))
+//     {
+//         ar-en.querySelector("i").classList.add("fa-e");
+//     }
+//     else
+//     {
+//         ar-en.querySelector("i").classList.add("fa-a");
+//     }
+//   })

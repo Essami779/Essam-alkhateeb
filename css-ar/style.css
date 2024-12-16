@@ -165,13 +165,13 @@ ul
 /* aside */
 .aside
 {
-    width: 270px;
+    width: -270px;
     background: var(--bg-black-100) ;
     position: fixed;
     right: 0;
     left: auto;
     top: 0;
-    padding: 30px;
+    padding: 40px;
     height: 100%;
     border-left: 1px solid var(--bg-black-50);
     display: flex;
@@ -210,7 +210,7 @@ ul
     border-bottom: 5px solid var(--skin-color);
     border-left: 5px solid var(--skin-color);
     bottom: 0;
-    right: 0;
+    left: 0;
 }
 .aside .nav-toggler
 {
@@ -241,7 +241,7 @@ ul
     background-color: transparent;
 }
 .aside .nav-toggler.open span::before {
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
     top: 0;
 }
 .aside .nav-toggler span::before
@@ -274,7 +274,7 @@ ul
     border-top: 5px solid var(--skin-color);
     border-right: 5px solid var(--skin-color);
     top: 0;
-    left: 0;
+    right: 0;
 }
 .aside .nav-toggler.open span::after
 {
@@ -481,7 +481,7 @@ h3.my-profrssiion
 .about .about-content .skills .skill-item .progress .progress-in
 {
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
     height: 100%;
     border-radius: 4px;
@@ -499,6 +499,7 @@ h3.my-profrssiion
 .about .about-content .edcucation,
 .about .about-content .experience
 {
+    /* text-align: left; */
     flex: 0 0 50%;
     max-width: 50%;
     margin-top: 30px;
@@ -528,7 +529,7 @@ h3.my-profrssiion
 .about .about-content .timeline .timeline-item
 {
     position: relative;
-    padding-right: 37px;
+    padding-left: 37px;
     padding-bottom: 50px;
 }
 .about .about-content .timeline .timeline-item:last-child
@@ -541,14 +542,14 @@ h3.my-profrssiion
     width: 1px;
     position: absolute;
     height: 100%;
-    right: 7px;
+    left: 7px;
     top: 0;
     background-color: var(--skin-color);
 }
 .about .about-content .timeline .circle-dot
 {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
     height: 15px;
     width: 15px;
@@ -557,6 +558,7 @@ h3.my-profrssiion
 }
 .about .about-content .timeline .timeline-date
 {
+    text-align: left;
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 12px;
@@ -568,6 +570,7 @@ h3.my-profrssiion
 }
 .about .about-content .timeline .timeline-title
 {
+    text-align: left;
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 15px;
@@ -576,11 +579,13 @@ h3.my-profrssiion
 }
 .about .about-content .timeline .timeline-text
 {
+    text-align: left;
     line-height: 25px;
     font-size: 16px;
-    text-align: justify;
+    /* text-align: justify; */
     color: var(--text-black-900);
 }
+
 /* service */
 .service .container
 {
@@ -784,10 +789,11 @@ h3.my-profrssiion
     .aside
     {
         right: -270px;
+
     }
     .aside.open
     {
-        left: 0;
+        right: 0;
     }
    .aside .nav-toggler
    {
@@ -804,7 +810,7 @@ h3.my-profrssiion
    }
    .section.open
    {
-    left: 270px;
+    right: 270px;
    }
     .about .about-content .personal-info .info-item p span 
     {
@@ -846,6 +852,7 @@ h3.my-profrssiion
     .about .about-content .skills,
     .about .about-content .personal-info
     {
+        text-align: left;
         flex: 0 0 100%;
         max-width: 100%;
     }
